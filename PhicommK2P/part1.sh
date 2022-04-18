@@ -17,6 +17,6 @@
 #
 
 echo '添加SSRPLUS软件源'
-sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
+#sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 cat feeds.conf.default
 echo '=========Add feed source OK!========='
