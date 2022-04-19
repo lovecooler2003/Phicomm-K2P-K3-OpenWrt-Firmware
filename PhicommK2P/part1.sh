@@ -17,7 +17,7 @@
 #
 
 echo '添加SSRPLUS软件源'
-sed -i '$a src-git bearking https://github.com/bearking1069/openwrt-packages' feeds.conf.default
+sed -i '$a src-git OpenWrt-packages https://github.com/bearking1069/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 cat feeds.conf.default
